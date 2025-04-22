@@ -1,0 +1,32 @@
+{
+  "name": "jsaqa-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage",
+    "test:watch": "jest --watchAll"
+  },
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeLY4/jsaqa-code.git"
+  },
+  "author": "Gleb Osin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeLY4/jsaqa-code/issues"
+  },
+  "homepage": "https://github.com/BeLY4/jsaqa-code#readme",
+  "description": "",
+  "devDependencies": {
+    "coverage": "^0.4.1",
+    "cypress": "^14.3.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3"
+  }
+}

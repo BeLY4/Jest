@@ -1,4 +1,4 @@
-const sorting = require("../../app");
+const sorting = require("../app");
 
 describe("Books names test suit", () => {
   it("Books names should be sorted in ascending order", () => {
